@@ -30,9 +30,23 @@ h1 {
 }
 #section-one-padding-left {
   padding-top: 100px;
-  padding-left: 5%;
+  padding-left: 6%;
 }
+#follower{
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px rgb(187, 185, 185);
+  border-radius: 20px;
+}
+#follower div{
 
+  padding-left: 15%;
+}
+#follower h1{
+  font-weight: 700;
+}
 
 .button {
   text-decoration: none;
@@ -68,7 +82,7 @@ h1 {
   margin-left: 3%;
   margin-right: 3%;
   padding: 15px;
-  box-shadow: 10px 10px 40px grey;
+  box-shadow: 10px 10px 40px rgb(187, 185, 185);
   border-radius: 20px;
 }
 
@@ -80,6 +94,7 @@ h1 {
   text-align: center;
   color: grey;
   font-size: 50px;
+  font-weight: 700;
   padding-top: 30px;
 }
 
@@ -87,6 +102,7 @@ h1 {
   text-align: center;
   color: rgb(160, 157, 157);
   font-size: 30px;
+  font-weight: 700;
 }
 
 input {
@@ -98,7 +114,7 @@ input {
   border-left: 2px grey;
   border-radius: 4px;
   box-sizing: border-box;
-  box-shadow: 10px 10px 40px grey;
+  box-shadow: 10px 10px 40px rgb(187, 185, 185);
   height: 20%;
 }
 
