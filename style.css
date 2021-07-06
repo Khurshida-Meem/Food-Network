@@ -6,7 +6,8 @@ body {
   color: #19aef8;
 }
 .light-color {
-  background-color: #b8e9fc;
+  background-image: radial-gradient(#b8e9fc,white);
+
 }
 .grey-text {
   color: rgb(160, 157, 157);
@@ -16,29 +17,14 @@ h1 {
   font-size: 55px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #b8e9fc;
-  height: 50px;
-}
-li {
-  display: inline;
-}
-li a {
-  text-decoration: none;
-  color: black;
-  padding: 20px 16px;
-}
-.flexible-container-for-two {
+.flexible-container {
   display: flex;
   margin-bottom: 50px;
 }
-.flexible-container-for-two img {
+.flexible-container img{
   width: 100%;
 }
-.flexible-container-for-two div {
+.flexible-container div {
   width: 50%;
   padding: 5%;
 }
@@ -46,6 +32,7 @@ li a {
   padding-top: 100px;
   padding-left: 5%;
 }
+
 
 .button {
   text-decoration: none;
@@ -77,12 +64,11 @@ li a {
   margin-bottom: 50px;
 }
 .flexible-container-for-three div {
-  width: 100%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 200%;
+  margin-left: 3%;
+  margin-right: 3%;
   padding: 15px;
   box-shadow: 10px 10px 40px grey;
-  height: 80%;
   border-radius: 20px;
 }
 
@@ -97,25 +83,10 @@ li a {
   padding-top: 30px;
 }
 
-.section-four h2 {
+#Client-review h2 {
   text-align: center;
   color: rgb(160, 157, 157);
   font-size: 30px;
-}
-
-.flexible-container-for-four {
-  display: flex;
-  margin-bottom: 50px;
-}
-.flexible-container-for-four div {
-  width: 100%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 15px;
-}
-
-.flexible-container-for-four img {
-  width: 100%;
 }
 
 input {
