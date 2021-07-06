@@ -16,22 +16,20 @@ h1 {
   font-size: 55px;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
+ul {
+  list-style-type: none;
+  margin: 0;
   padding: 0;
   background-color: #b8e9fc;
   height: 50px;
 }
-li{
-    display: inline;
-    
+li {
+  display: inline;
 }
-li a{
-    
-    text-decoration: none;
-    color: black;
-    padding: 20px 16px;
+li a {
+  text-decoration: none;
+  color: black;
+  padding: 20px 16px;
 }
 .flexible-container-for-two {
   display: flex;
@@ -92,35 +90,34 @@ li a{
   width: 100%;
 }
 
-#section-four-header{
- text-align: center;
- color: grey;
- font-size: 50px;
- padding-top: 30px;
+#section-five-header {
+  text-align: center;
+  color: grey;
+  font-size: 50px;
+  padding-top: 30px;
 }
 
-.section-four h2{
-    text-align: center;
+.section-four h2 {
+  text-align: center;
+  color: rgb(160, 157, 157);
+  font-size: 30px;
 }
 
 .flexible-container-for-four {
-    display: flex;
-    margin-bottom: 50px;
-  }
-  .flexible-container-for-four div {
-    width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 15px;
-    box-shadow: 10px 10px 40px grey;
-    height: 80%;
-    border-radius: 20px;
-  }
-  
-  .flexible-container-for-four img {
-    width: 100%;
-  }
-  
+  display: flex;
+  margin-bottom: 50px;
+}
+.flexible-container-for-four div {
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 15px;
+}
+
+.flexible-container-for-four img {
+  width: 100%;
+}
+
 input {
   width: 100%;
   padding: 12px 20px;
